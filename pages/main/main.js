@@ -7,9 +7,9 @@ Page({
   data: {
 
     imgUrls: [
-      '../../images/swapimage/1.png',
-      '../../images/swapimage/2.png',
-      '../../images/swapimage/3.png'
+      '../../images/swapimage/4.png',
+      '../../images/swapimage/4.png',
+      '../../images/swapimage/4.png'
     ],
     contentImages: [
       '../../images/test/1.png',
