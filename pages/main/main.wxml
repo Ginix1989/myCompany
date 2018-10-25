@@ -1,0 +1,58 @@
+<view>
+  <view class="selection">
+    <swiper indicator-dots="{{indicatorDots}}" class="swiper" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class='slide-image' mode='scaleToFill' />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!-- 精品推荐 -->
+  <view class="selection">
+    <!-- 标题 -->
+    <view class="header">
+      <text>精品推荐</text>
+      <text class="text-all">全部精品</text>
+    </view>
+    <!-- 内容 -->
+    <view class="content">
+      <view class='content-item' wx:for="{{contentImages}}">
+        <image src="{{item}}"></image>
+        <view class='content-item-text'>
+          <text>  这里是标题</text>
+        </view>
+      </view>
+
+    </view>
+  </view>
+
+
+
+
+  <!-- 热门评测 -->
+  <view class='selection'>
+    <!-- 标题 -->
+    <view class="header">
+      <text>热门评测</text>
+      <text class="text-all">全部评测 </text>
+    </view>
+    <!-- 内容 wx:for="{{listItems}}" -->
+    <view class='list-item' wx:for="{{listItems}}">
+      <view class='list-item-images'>
+        <image class='list-item-images-img' src='../../images/test/3.png' scaleToFill></image>
+        <image class='avatar ' src='../../images/test/1.png' scaleToFill></image>
+      </view>
+
+      <view class='list-item-text'>
+        <view class='list-item-text-title'>
+          <text>美丽的风景</text>
+        </view>
+
+        <view class='list-item-text-content'>
+          美丽的风景美丽的风景美丽的风景美丽的风景美丽的风景美丽的风景美丽的风景
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

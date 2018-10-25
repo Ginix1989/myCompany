@@ -1,0 +1,112 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.selection
+{
+  border-bottom: 2rpx solid #ddd;
+}
+.header {
+  border-left: 10rpx solid goldenrod;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+
+.text-all {
+  color: rgb(14, 29, 238);
+  font-size: 35rpx;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-item {
+  height: 300rpx;
+  width: 45%;
+  background-color: goldenrod;
+  margin: 2rpx;
+  position: relative;
+}
+
+.content-item image {
+  width: 100%;
+  height: 100%;
+}
+
+.content-item-text {
+  position: absolute;
+  bottom: 0rpx;
+  color: wheat;
+  font-size: 30rpx;
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0.3));
+  height: 30rpx;
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 4%;
+  /* align-self: center; */
+}
+
+.list-item {
+  height: 500rpx;
+  width: 100%;
+  margin-bottom: 30rpx;
+
+}
+
+.list-item-images {
+  height: 400rpx;
+  width: 100%;
+  position: relative;
+}
+
+/* .list-item-images image {
+  height: 100%;
+  width: 100%;
+} */
+
+.list-item-images-img {
+  height: 100%;
+  width: 100%;
+}
+
+.list-item-text {
+  height: 100rpx;
+  /* background-color: goldenrod; */
+}
+
+.avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -50rpx;
+  right: 50rpx;
+}
+
+.list-item-text {
+  height: 100rpx;
+  
+}
+
+.list-item-text-title {
+  height: 50rpx;
+}
+
+.list-item-text-content {
+  height: 40rpx;
+  font-size:30rpx;
+  color: #999;
+
+}
